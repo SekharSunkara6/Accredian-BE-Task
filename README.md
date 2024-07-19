@@ -16,7 +16,7 @@ This project is to Develop RESTful APIs specifically for handling the referral f
 
 1. Clone the repository:
 
-2. Navigate to the project directory with `cd referral-form-backend`.
+2. Navigate to the project directory with `cd Accredian-BE-Task`.
 
 3. Install dependencies with `npm install`.
 
