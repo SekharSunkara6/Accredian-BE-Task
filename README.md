@@ -1,22 +1,16 @@
-# Refer and Earn Backend - Accredian backend task
+# Refer and Earn Accredian-BE task
 
-This project provides the backend support for handling referral form submissions. It features RESTful APIs developed with Express.js, database connectivity using Prisma ORM with a MySQL database, and email notifications through the Google Mail Service API.
+This project is to Develop RESTful APIs specifically for handling the referral form data and connect them with a MySQL database.
 
 ## Features
 
-- **RESTful APIs**: Endpoints to save referral data submitted through the referral form.
-- **Database Connectivity**: Uses Prisma ORM to connect with a MySQL database for storing referral information.
-- **Data Validation**: Ensures the integrity of user data with comprehensive validation checks.
-- **Error Handling**: Robust error handling to manage scenarios like missing fields or invalid data inputs.
-- **Email Notification**: Sends an email notification via Google Mail Service API upon successful referral submission.
+- **RESTful APIs**
+- **Database Connectivity**
+- **Data Validation**
+- **Error Handling**
+- **Email Notification**
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js
-- MySQL Database
-- Google Mail Service API credentials
 
 ### Installation
 
@@ -33,8 +27,3 @@ This project provides the backend support for handling referral form submissions
 5. Run the Prisma migrations with `npx prisma migrate dev`
 
 6. Start the server with `npm server.js`
-
-
-## API Endpoints
-
-- **POST /referrals**: Submit referral data. Requires `referrerName`, `referrerEmail`, `refereeName`, and `refereeEmail` and optional `message`.
